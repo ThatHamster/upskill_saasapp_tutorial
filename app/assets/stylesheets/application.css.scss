@@ -38,6 +38,11 @@ h1, h2, h3 {
     border: none; //Removes border from navbar getting rid of some white space
 }
 
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
 // Homepage styles
 .home-callout {
     margin-top: -20px; //Removes 20 pixels of the header section to make the color gradient meet
