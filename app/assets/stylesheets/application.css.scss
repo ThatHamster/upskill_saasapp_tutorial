@@ -29,12 +29,30 @@ h1, h2, h3 {
 }
 
 .navbar {
-    border: none;
+    border: none; //Removes border from navbar getting rid of some white space
 }
 
 .home-callout {
-    margin-top: -20px;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    margin-top: -20px; //Removes 20 pixels of the header section to make the color gradient meet
+    padding-top: 50px; //Adds padding to top so callout remains spaced away from navbar
+    padding-bottom: 100px; //Adds padding to bottom of header/callout so color gradient extends further down
+    color: white; //Changes text to white
+}
+
+.navbar-default .navbar-brand {
     color: white;
+}
+
+.navbar-default .navbar-nav li a {
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+    opacity: 0.75;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: white;
+    opacity: 0.75;
 }
